@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     fun changeFragment(fragment: NewsFragment) {
         val ft = supportFragmentManager.beginTransaction()
         ft.replace(R.id.content, fragment)
-        ft.commit();
+        ft.commit()
     }
 
 
